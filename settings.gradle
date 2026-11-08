@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoryMode = RepositoryMode.REPO_MODE
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "WristPad"
+
+include ":phone-app"
+include ":wear-app"

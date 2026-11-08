@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WristPad.Wear" parent="Theme.Wear.Compose">
+        <!-- Customize your wear theme here -->
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorOnPrimary">#1E1E2F</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnSurface">#F8F9FA</item>
+    </style>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WristPad</string>
+    <string name="title_activity_wear_main">WristPad</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="no_sounds">No sounds</string>
+    <string name="stop">Stop</string>
+    <string name="volume">Volume</string>
+    <string name="sync_error">Sync error</string>
+    <string name="reconnect">Reconnect</string>
+</resources>

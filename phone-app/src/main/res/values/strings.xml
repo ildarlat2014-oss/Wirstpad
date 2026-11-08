@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WristPad</string>
+    <string name="action_add_sound">Add Sound</string>
+    <string name="action_import">Import from Gallery</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_play">Play</string>
+    <string name="title_activity_main">WristPad</string>
+    <string name="title_activity_sound_library">Sound Library</string>
+    <string name="title_activity_wear">WristPad Wear</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="sync_library">Sync Library</string>
+    <string name="no_sounds">No sounds yet</string>
+    <string name="add_new_sound">Add New Sound</string>
+    <string name="volume">Volume</string>
+    <string name="settings">Settings</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.WristPad.Phone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorOnPrimary">#1E1E2F</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#33D9B2</item>
+        <item name="colorOnSecondary">#1E1E2F</item>
+        <!-- Background color. -->
+        <item name="android:colorBackground">#121212</item>
+        <!-- Surface color. -->
+        <item name="colorSurface">#1E1E2F</item>
+        <item name="colorOnSurface">#F8F9FA</item>
+        <!-- Error color. -->
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">#FFFFFF</item>
+    </style>
+</resources>

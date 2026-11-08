@@ -1,0 +1,43 @@
+plugins {
+    kotlin("jvm") version "1.9.22"
+    id("com.android.application") version "8.1.0" apply true
+    id("com.android.lib") version "8.1.0" apply true
+    id("org.jetbrains.kotlin.android") version "1.9.22" apply true
+}
+
+android {
+    namespace = "com.wristpad"
+    compileSdk = 33
+
+    defaultConfig {
+        applicationId = "com.wristpad"
+        minSdk = 28
+        targetSdk = 33
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.4"
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete = true
+    delete rootProject.buildDir
+}
